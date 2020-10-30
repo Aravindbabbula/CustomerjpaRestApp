@@ -5,6 +5,8 @@ import com.cg.customer.entities.Customer;
 public interface ICustomerDao {
 	Customer add(Customer customer);
 	
-	Customer update(long id,String name);
+	Customer update(Customer customer);
+	
+	Customer findById(long id);
 
 }

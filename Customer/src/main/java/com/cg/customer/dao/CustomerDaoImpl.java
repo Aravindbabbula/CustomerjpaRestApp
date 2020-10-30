@@ -29,11 +29,16 @@ public class CustomerDaoImpl implements ICustomerDao {
 	}
 	
 	@Override
-	public Customer update(long id,String name) {
-		Customer customer=store.get(id);
-		customer.setName(name);
+	public Customer update(Customer customer) {
+		Long id=customer.getId();
 		store.put(id, customer);
 		return customer;
+		
+		
+	}
+	@Override
+	public Customer findById(long id) {
+		return store.get(id);
 	}
 	
 }

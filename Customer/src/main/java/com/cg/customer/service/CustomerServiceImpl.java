@@ -24,8 +24,9 @@ public class CustomerServiceImpl implements ICustomerService{
 
 	@Override
 	public Customer updateName(long id,String name) {
-		
-		Customer customer=dao.update(id,name);
+		Customer customer=dao.findById(id);
+		customer.setName(name);
+		customer =dao.update(customer);
 		return customer;
 	}
 

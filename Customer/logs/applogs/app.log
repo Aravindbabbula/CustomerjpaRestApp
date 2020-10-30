@@ -7,3 +7,16 @@
 2020-10-29 09:11:02 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'customerDaoImpl'
 2020-10-29 09:11:02 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'customerServiceImpl'
 2020-10-29 09:11:02 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'projectUi'
+2020-10-30 09:59:07 DEBUG AnnotationConfigApplicationContext:596 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2473b9ce
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-10-30 09:59:07 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\maven workspace\Customer\target\classes\com\cg\customer\dao\CustomerDaoImpl.class]
+2020-10-30 09:59:07 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\maven workspace\Customer\target\classes\com\cg\customer\service\CustomerServiceImpl.class]
+2020-10-30 09:59:07 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\maven workspace\Customer\target\classes\com\cg\customer\ui\ProjectUi.class]
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'javaConfiguration'
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'customerDaoImpl'
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'customerServiceImpl'
+2020-10-30 09:59:07 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'projectUi'
