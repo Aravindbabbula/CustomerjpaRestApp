@@ -12,7 +12,7 @@
     <artifactId>customerjparest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>customerjparest</name>
-    <description>Demo project for Spring Boot REST</description>
+    <description>Spring Boot DATA JPA REST</description>
 
     <properties>
         <java.version>1.8</java.version>
